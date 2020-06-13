@@ -20,6 +20,6 @@ steps:
   settings:
     repo: fleckess/Public_fleckess
     username:
-      from_secret: docker
-    password:
-      from_secret: docker
+    from_secret: dockerhub_user
+      password:
+        from_secret: dockerhub
