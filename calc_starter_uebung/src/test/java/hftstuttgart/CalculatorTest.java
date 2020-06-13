@@ -16,6 +16,6 @@ public class CalculatorTest {
     public void prodNumbers() {
         Calculator calc = new Calculator();
         int prod = calc.prod(3, 7);
-        assertEquals(0, prod);
+        assertEquals(21, prod);
     }
 }

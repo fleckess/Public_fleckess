@@ -12,8 +12,7 @@ public class Calculator {
 
     public int prod(int op1, int op2) {
         int sum = 0;
-        sum *= op1;
-        sum *= op2;
+        sum = op1*op2;
         return sum;
     }    
 }
