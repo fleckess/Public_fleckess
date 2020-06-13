@@ -18,7 +18,11 @@ steps:
 - name: publish
   image: plugins/docker
   settings:
+<<<<<<< HEAD
     repo: fleck010360/public_fleckess
+=======
+    repo: fleckess/public_fleckess
+>>>>>>> 99633af2d43a2e480899f642787a893a44a7e4dc
     username:
       from_secret: dockerhub_user
     password:
